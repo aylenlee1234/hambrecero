@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donacion</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script
+        src="https://kit.fontawesome.com/64d58efce2.js"
+        crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <section class="header1">
+        <nav>
+            <a href="index.html"><img src="img/logo2.png"></a>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="sobrenosotros.html">Sobre Nosotros</a></li>
+                    <li><a href="programas.html">Programas</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="donar.html"><span>Donar</span></a></li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+
+  <section class="donation-form">
+
+    <div class="donation-container">
+        <h5>Haga un impacto hoy</h5>
+    <form id="donationForm">
+      <label for="name">Nombre:</label>
+      <input type="text" id="name" name="name" required><br>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required><br>
+
+      <label for="amount">Cantidad que quiera donar ($):</label>
+      <input type="number" id="amount" name="amount" min="1" step="any" required><br>
+
+      <label for="amount">Organización a la que quiera donar:</label>
+      <input type="text" id="nombre" name="nombre" required><br>
+
+      <label for="message">Mensaje (opcional):</label>
+      <textarea id="message" name="message" rows="4" cols="30"></textarea><br>
+
+      <button type="submit">Donar</button>
+    </form>
+    </div>
+  </section>
+
+  <script src="donar.js"></script>
+
+  <footer class="footer">
+    <div class="footer-icon1">
+        <a href="index.html"><img src="img/logo2.png" alt=""></a>
+    </div>
+
+    <div class="footer-text">
+        <p>Aylen Lee, Maria Paz Valiente, Melisa Villanueva | Diseño y Desarrollo Web | <a href="https://aylenlee1234.github.io/proyectogrupo3/#index" target="_blank">Sitio</a> </p>
+    </div>
+
+    <div class="footer-icontop">
+        <a href="https://www.uade.edu.ar/facultad-de-ingenieria-y-ciencias-exactas/licenciatura-en-gestion-de-tecnologia-de-la-informacion/" target="_blank"> <img src="img/logouade.png" alt=""></a>
+    </div>
+</footer>
+
+</body>
+</html>
