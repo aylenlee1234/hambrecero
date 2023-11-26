@@ -34,7 +34,7 @@
 
     <div class="donation-container">
         <h5>Haga un impacto hoy</h5>
-    <form id="donationForm">
+    <form id="donationForm" action="your_action_page.php" method="post" onsubmit="handleSubmit(event)">
       <label for="name">Nombre:</label>
       <input type="text" id="name" name="name" required><br>
 
@@ -49,13 +49,20 @@
 
       <label for="message">Mensaje (opcional):</label>
       <textarea id="message" name="message" rows="4" cols="30"></textarea><br>
-
-      <button type="submit">Donar</button>
+      <input type="submit" value="Donar">
     </form>
     </div>
+
+    <div class="popup" id="popup">
+        <img src="img/tick1.png">
+        <h2>Gracias por su donación!</h2>
+        <p>En breve nos pondremos en contacto con usted.</p>
+        <button id="popupButton" onclick="closePopup()">OK</button>
+    </div>
+      
   </section>
 
-  <script src="donar.js"></script>
+<script src="donar.js"></script>
 
   <footer class="footer">
     <div class="footer-icon1">
