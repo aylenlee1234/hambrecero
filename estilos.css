@@ -278,10 +278,11 @@ h5 {
     font-size: 30px;
 }
 
-.desc p {
-    padding-left: 300px;
-    padding-right: 300px;
+.desc h7 {
+    padding-left: 7px;
+    padding-right: 7px;
     text-align: center;
+    padding-bottom: 30px;
 }
 
 .container1 img {
@@ -912,8 +913,9 @@ nav img {
     height: 60%;
 }
 
-.desc p {
-    padding-left: -300px;
+.desc h7 {
+  margin-left: 20px; 
+  align-items: center;
 }
 
 .sobrenostros {
